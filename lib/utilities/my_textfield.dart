@@ -22,11 +22,13 @@ class MyTextField extends StatelessWidget {
         obscureText: obscureText, //to hide/show sensitive details like passwords
           decoration: InputDecoration(
         enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(8),
           borderSide: BorderSide(
             color: Color(0xFF252945),
           ),
         ),
         focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(8),
           borderSide: BorderSide(
             color: Colors.black,
           ),
