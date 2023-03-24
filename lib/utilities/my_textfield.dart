@@ -23,18 +23,18 @@ class MyTextField extends StatelessWidget {
           decoration: InputDecoration(
         enabledBorder: OutlineInputBorder(
           borderSide: BorderSide(
-            color: Colors.white,
+            color: Color(0xFF252945),
           ),
         ),
         focusedBorder: OutlineInputBorder(
           borderSide: BorderSide(
-            color: Colors.grey.shade500,
+            color: Colors.black,
           ),
         ),
-        fillColor: Colors.deepPurple.shade300,
+        fillColor: Colors.white,
         filled: true,
         hintText: hintText,
-        hintStyle: TextStyle(color: Colors.white), //to hint the user what and where to type stuff
+        hintStyle: TextStyle(color: Color(0xFF9fa5aa)), //to hint the user what and where to type stuff
       )),
     );
   }
